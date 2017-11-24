@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>JS Quiz App</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,8 +19,54 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <header>
+            <h1>JS Quiz App</h1>
+            <p>Test your knowlegde in <strong>JS fundamentals</strong></p>
+        </header>
+
+        <section>
+            <div id="results">
+
+            </div>
+            <form name="quizForm" onsubmit="return submitAnswers()">
+                <h3>Question 1 </h3>
+                <input type="radio" name="q1" value="a" id="q1a">a . Answer one<br>
+                <input type="radio" name="q1" value="b" id="q1b">b . Answer one<br>
+                <input type="radio" name="q1" value="c" id="q1c">c . Answer one<br>
+                <input type="radio" name="q1" value="d" id="q1d">d . Answer one<br>
+
+                <h3>Question 2 </h3>
+                <input type="radio" name="q1" value="a" id="q2a">a . Answer one<br>
+                <input type="radio" name="q1" value="b" id="q2b">b . Answer one<br>
+                <input type="radio" name="q1" value="c" id="q2c">c . Answer one<br>
+                <input type="radio" name="q1" value="d" id="q2d">d . Answer one<br>
+
+                <h3>Question 3 </h3>
+                <input type="radio" name="q1" value="a" id="q3a">a . Answer one<br>
+                <input type="radio" name="q1" value="b" id="q3b">b . Answer one<br>
+                <input type="radio" name="q1" value="c" id="q3c">c . Answer one<br>
+                <input type="radio" name="q1" value="d" id="q3d">d . Answer one<br>
+
+                <h3>Question 4 </h3>
+                <input type="radio" name="q1" value="a" id="q4a">a . Answer one<br>
+                <input type="radio" name="q1" value="b" id="q4b">b . Answer one<br>
+                <input type="radio" name="q1" value="c" id="q4c">c . Answer one<br>
+                <input type="radio" name="q1" value="d" id="q4d">d . Answer one<br>
+
+                <h3>Question 5 </h3>
+                <input type="radio" name="q1" value="a" id="q5a">a . Answer one<br>
+                <input type="radio" name="q1" value="b" id="q5b">b . Answer one<br>
+                <input type="radio" name="q1" value="c" id="q5c">c . Answer one<br>
+                <input type="radio" name="q1" value="d" id="q5d">d . Answer one<br>
+
+                <input type="submit" value="submitAnswers">
+            </form>
+
+            <footer>
+                <p>copyright &copy; 2017. All rights reserved.</p>
+            </footer>
+        </section>
+
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
